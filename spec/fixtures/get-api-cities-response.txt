@@ -1,0 +1,1 @@
+[{"name":"Shingu", "r_id":"30", "region":"Wakayama", "c_id":"JP", "country":"Japan"}, {"name":"Katayamazu", "r_id":"17", "region":"Ishikawa", "c_id":"JP", "country":"Japan"}]

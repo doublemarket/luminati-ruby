@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.metadata["source_code_uri"] = "https://github.com/doublemarket/luminati-ruby"
   spec.metadata["changelog_uri"] = "https://github.com/doublemarket/luminati-ruby"
 
-  spec.files = %w[.yardopts LICENSE README.md luminati-ruby.gemspec] + Dir['lib/**/*.rb']
+  spec.files = %w[LICENSE.txt README.md luminati-ruby.gemspec] + Dir['lib/**/*.rb']
   spec.require_paths = ["lib"]
 
   spec.add_dependency "faraday", "~> 1.0"

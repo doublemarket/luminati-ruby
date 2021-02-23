@@ -7,7 +7,7 @@ A Ruby interface to the [Luminati API](https://luminati.io/doc/api).
 - Some endpoints of [the Account management API](https://luminati.io/doc/api#account_api).
 - [Proxy Manager API](https://luminati.io/doc/api#lpm_endpoints)
 
-Check out the [documentation](https://luminati.io/doc/api) for which ones are supported.
+Check out the [documentation](https://rubydoc.info/gems/luminati-ruby) for which ones are supported.
 
 ## Installation
 

@@ -1,16 +1,9 @@
 AllCops:
   TargetRubyVersion: 2.4
 
-Style/StringLiterals:
-  Enabled: true
-  EnforcedStyle: double_quotes
-
-Style/StringLiteralsInInterpolation:
-  Enabled: true
-  EnforcedStyle: double_quotes
-
 Layout/LineLength:
-  Max: 120
+  AllowURI: true
+  Enabled: false
 
 Metrics/BlockLength:
   Exclude:
@@ -19,3 +12,14 @@ Metrics/BlockLength:
 Metrics/MethodLength:
   CountComments: false
   Max: 15
+
+Style/Documentation:
+  Enabled: false
+
+Style/StringLiterals:
+  Enabled: true
+  EnforcedStyle: double_quotes
+
+Style/StringLiteralsInInterpolation:
+  Enabled: true
+  EnforcedStyle: double_quotes

@@ -4,7 +4,3 @@ require "faraday"
 require "oj"
 require_relative "luminati/version"
 require_relative "luminati/client"
-
-module Luminati
-
-end

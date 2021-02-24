@@ -76,14 +76,14 @@ RSpec.describe Luminati::Client::Zone::Ips do
     let(:customer) { "youraccountid" }
     let(:zone) { "existingzonename" }
     let(:country) { "us" }
-    let(:ip_info) {
+    let(:ip_info) do
       {
         customer: customer,
         zone: zone,
         count: count,
         country: country
       }
-    }
+    end
     let(:expected_status) { 200 }
     let(:expected_body) { fixture("post-api-zone-ips-response.txt") }
 
@@ -119,11 +119,11 @@ RSpec.describe Luminati::Client::Zone::Ips do
 
   describe "#remove_ips" do
     let(:zone_name) { "existingzonename" }
-    let(:ips) {
+    let(:ips) do
       [
         "xxx.xxx.xxx.xxx"
       ]
-    }
+    end
     let(:expected_status) { 200 }
     let(:expected_body) { "{\"ips\":[\"xxx.xxx.xxx.xxx\"]}" }
 
@@ -157,11 +157,11 @@ RSpec.describe Luminati::Client::Zone::Ips do
     end
 
     describe "when it gets an invalid IPs (IPs that don't exist)" do
-      let(:ips) {
+      let(:ips) do
         [
           "xyz.xyz.xyz.xyz"
         ]
-       }
+      end
       let(:expected_status) { 400 }
       let(:expected_body) { "Cannot remove IPs not allocated to you" }
 
